@@ -12,9 +12,9 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.chenangela.vcare.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:id="@+id/navigation_favorites"
+        android:name="com.chenangela.vcare.ui.dashboard.FavoritesFragment"
+        android:label="@string/title_favorites"
         tools:layout="@layout/fragment_favorites" />
 
     <fragment
@@ -22,4 +22,9 @@
         android:name="com.chenangela.vcare.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.chenangela.vcare.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
 </navigation>
