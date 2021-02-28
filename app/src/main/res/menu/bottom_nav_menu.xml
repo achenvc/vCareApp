@@ -20,4 +20,5 @@
     android:id="@+id/navigation_calendar"
     android:icon="@drawable/ic_baseline_calendar_today_24"
     android:title="@string/title_calendar" />
+
 </menu>
