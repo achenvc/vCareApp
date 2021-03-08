@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_friends">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.chenangela.vcare.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_friends"
+        android:name="com.chenangela.vcare.ui.friends.FriendsFragment"
+        android:label="@string/title_friends"
+        tools:layout="@layout/fragment_friends" />
 
     <fragment
         android:id="@+id/navigation_favorites"
@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_favorites" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.chenangela.vcare.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_settings"
+        android:name="com.chenangela.vcare.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/navigation_calendar"
         android:name="com.chenangela.vcare.ui.calendar.CalendarFragment"
