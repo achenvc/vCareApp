@@ -1,4 +1,4 @@
-package com.chenangela.vcare.ui.dashboard;
+package com.chenangela.vcare.ui.favorites;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
