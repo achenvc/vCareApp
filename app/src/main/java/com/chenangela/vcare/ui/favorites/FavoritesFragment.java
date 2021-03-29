@@ -1,4 +1,4 @@
-package com.chenangela.vcare.ui.dashboard;
+package com.chenangela.vcare.ui.favorites;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.FavoritesFragment">
+    tools:context=".ui.favorites.FavoritesFragment">
 
     <Button
         android:id="@+id/entry_6"
@@ -65,5 +65,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/favorites_title"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/heart" />
+        app:srcCompat="@drawable/heart"
+        android:contentDescription="TODO" />
 </androidx.constraintlayout.widget.ConstraintLayout>
