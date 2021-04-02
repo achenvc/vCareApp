@@ -10,6 +10,10 @@
         android:icon="@drawable/ic_baseline_calendar_today_24"
         android:title="@string/title_calendar" />
     <item
+        android:id="@+id/navigation_journal"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="@string/title_journal" />
+    <item
         android:id="@+id/navigation_friends"
         android:icon="@drawable/ic_baseline_people_24"
         android:title="@string/title_friends" />

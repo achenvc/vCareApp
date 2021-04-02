@@ -13,13 +13,12 @@ import com.chenangela.vcare.R;
 
 public class FavoritesFragment extends Fragment {
 
-    private FavoritesViewModel dashboardViewModel;
+    private FavoritesViewModel favoritesViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
+        favoritesViewModel =
                 ViewModelProviders.of(this).get(FavoritesViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_favorites, container, false);
         //final TextView textView = root.findViewById(R.id.text_dashboard);
         //final TextView favorites_title = root.findViewById(R.id.favorites_title);
 
@@ -29,6 +28,6 @@ public class FavoritesFragment extends Fragment {
                 favorites_title.setText(s);
             }
         });*/
-        return root;
+        return inflater.inflate(R.layout.fragment_favorites, container, false);
     }
 }
