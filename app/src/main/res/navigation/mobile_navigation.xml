@@ -18,6 +18,12 @@
         tools:layout="@layout/fragment_favorites" />
 
     <fragment
+        android:id="@+id/navigation_journal"
+        android:name="com.chenangela.vcare.ui.journal.JournalFragment"
+        android:label="@string/title_journal"
+        tools:layout="@layout/fragment_journal" />
+
+    <fragment
         android:id="@+id/navigation_settings"
         android:name="com.chenangela.vcare.ui.settings.SettingsFragment"
         android:label="@string/title_settings"
