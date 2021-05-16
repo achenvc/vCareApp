@@ -29,6 +29,6 @@ public class JournalFragment extends Fragment{
                 textView.setText(s);
             }
         });
-        return root;
+        return inflater.inflate(R.layout.fragment_journal, container, false);
     }
 }
