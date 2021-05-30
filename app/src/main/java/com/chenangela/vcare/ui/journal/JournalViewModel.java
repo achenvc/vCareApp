@@ -1,16 +1,15 @@
-package com.chenangela.vcare.ui.dashboard;
+package com.chenangela.vcare.ui.journal;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class FavoritesViewModel extends ViewModel {
-
+public class JournalViewModel extends ViewModel {
     private MutableLiveData<String> mText;
 
-    public FavoritesViewModel() {
+    public JournalViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is favorites fragment");
+        mText.setValue("This is journal fragment");
     }
 
     public LiveData<String> getText() {

@@ -13,9 +13,15 @@
 
     <fragment
         android:id="@+id/navigation_favorites"
-        android:name="com.chenangela.vcare.ui.dashboard.FavoritesFragment"
+        android:name="com.chenangela.vcare.ui.favorites.FavoritesFragment"
         android:label="@string/title_favorites"
         tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_journal"
+        android:name="com.chenangela.vcare.ui.journal.JournalFragment"
+        android:label="@string/title_journal"
+        tools:layout="@layout/fragment_journal" />
 
     <fragment
         android:id="@+id/navigation_settings"
