@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 public class JournalViewModel extends ViewModel {
+
     private MutableLiveData<String> mText;
 
     public JournalViewModel() {

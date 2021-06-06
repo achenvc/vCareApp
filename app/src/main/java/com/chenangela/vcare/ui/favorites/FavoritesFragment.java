@@ -17,8 +17,7 @@ public class FavoritesFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        favoritesViewModel =
-                ViewModelProviders.of(this).get(FavoritesViewModel.class);
+        favoritesViewModel = ViewModelProviders.of(this).get(FavoritesViewModel.class);
         //final TextView textView = root.findViewById(R.id.text_dashboard);
         //final TextView favorites_title = root.findViewById(R.id.favorites_title);
 
