@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
-
+/*
         //assign variable
         customCalendar = findViewById(R.id.custom_calendar);
 
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         dateHashMap.put(30, "absent"); */
 
         //set date
-        customCalendar.setDate(calendar,dateHashMap);
+/*        customCalendar.setDate(calendar,dateHashMap);
 
         customCalendar.setOnDateSelectedListener(new OnDateSelectedListener() {
             @Override
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+*/
     }
 
 }
